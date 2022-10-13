@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;}
+
+  
+.instagram-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
+}
+
+.instagram-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.instagram-phone img{
+  height: 50rem;
+}
+
+.instagram-continue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 35rem;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 150%;
+  padding: 1rem;
+  border: 1px solid lightgray;
+}
+
+.group:nth-child(1){
+  min-height: 19rem;
+}
+
+.group1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: #ffffff;
+  width: 150%;
+  padding: 1rem;
+  border: 1px solid lightgray;
+}
+
+
+
+.logo{
+  margin-top: 1.5rem;
+}
+
+.get-the-app {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  width: 150%;
+}
+
+.get-the-app p{
+  margin-bottom: 1.5rem;
+  color: #001524;
+}
+
+.get-the-app img{
+  width: 10rem;
+}
+
+.form {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-radius: 20%;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+
+
+.instagram-logo {
+  height: 3rem;
+}
+
+.login {
+  background-color: #0095f6;
+  text-decoration: none;
+  display: flex;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-fb {
+  color: #005d9c;
+  font-weight: 600;
+  margin-top: 1rem;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+
+}
+
+.forgot-password{
+  color: #001524;
+  font-weight: 300;
+  margin-top: 1rem;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.group input {
+  width: 100%;
+  margin: 10px;
+  padding: 8px;
+}
+
+.option{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  padding: 8px;
+}
+
+.not-account{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.not-account a{
+  font-weight: 600;
+  color: #19a0fb;
+}
